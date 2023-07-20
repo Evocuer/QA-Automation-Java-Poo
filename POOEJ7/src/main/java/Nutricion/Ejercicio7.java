@@ -51,7 +51,7 @@ public class Ejercicio7 {
         }
         System.out.println("El porcentaje de personas por debajo del peso es: " + (low/4)*100  );
         System.out.println("El porcentaje de personas en el peso es: " + (mid/4)*100  );
-        System.out.println("El porcentaje de personas por encima del peso es: " + (high/4)*100  );
+        System.out.println("El porcentaje de por encima del peso es: " + (high/4)*100  );
         System.out.println("El porcentaje de personas mayores de edad es: " + (mlow/4)*100);
         System.out.println("El porcentaje de personas " + (1-(mlow/4))*100);
     }
