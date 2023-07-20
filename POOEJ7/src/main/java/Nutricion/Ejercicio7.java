@@ -53,7 +53,7 @@ public class Ejercicio7 {
         System.out.println("El porcentaje de personas en el peso es: " + (mid/4)*100  );
         System.out.println("El porcentaje de personas por encima del peso es: " + (high/4)*100  );
         System.out.println("El porcentaje de personas mayores de edad es: " + (mlow/4)*100);
-        System.out.println("El porcentaje de personas menores de edad es: " + (1-(mlow/4))*100);
+        System.out.println("El porcentaje de personas " + (1-(mlow/4))*100);
     }
     
     public static void crearPersona(Persona[] p, ServicioNutricion sn) {
